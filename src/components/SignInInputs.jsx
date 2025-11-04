@@ -1,4 +1,4 @@
-import styles from "./CSS/SignInInputs.module.css";
+import styles from "../CSS/SignInInputs.module.css";
 import { Formik } from "formik";
 import CustomTextInput from "./CustomTextInput";
 import { useDispatch, useSelector } from "react-redux";

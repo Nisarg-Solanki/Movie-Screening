@@ -1,4 +1,4 @@
-import styles from "./CSS/SignUpInputs.module.css";
+import styles from "../CSS/SignUpInputs.module.css";
 import { Formik } from "formik";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";

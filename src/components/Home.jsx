@@ -1,7 +1,6 @@
 import Carousel from "./Carousel";
 import { Navbar } from "./Navbar";
-import React, { useState } from "react";
-import styles from "./CSS/Home.module.css";
+import styles from "../CSS/Home.module.css";
 import { data } from "../data/data.js";
 import { useDispatch, useSelector } from "react-redux";
 import Card from "./Card.jsx";

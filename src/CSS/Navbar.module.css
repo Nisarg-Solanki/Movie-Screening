@@ -21,6 +21,10 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
 .user-icon {
   width: 30px;
@@ -75,4 +79,21 @@
   color: red;
   font-size: 36px;
   line-height: 52.5px;
+}
+
+.user-wrapper {
+  position: relative;
+}
+
+.popup {
+  background-color: white;
+  padding: 8px 0px;
+  width: 100%;
+  color: black;
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+  z-index: 1;
+  border: none;
+  cursor: pointer;
 }

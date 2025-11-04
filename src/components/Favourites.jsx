@@ -1,5 +1,5 @@
 import { IoArrowBackCircleOutline } from "react-icons/io5";
-import styles from "./CSS/Favourites.module.css";
+import styles from "../CSS/Favourites.module.css";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router";
 import Card from "./Card";
@@ -20,9 +20,7 @@ const Favourites = () => {
   return (
     <div className={styles["container"]}>
       <botton className={`${styles["back-button"]}`} onClick={handleBack}>
-        <IoArrowBackCircleOutline
-          style={{ height: "50px", width: "50px" }}
-        />
+        <IoArrowBackCircleOutline style={{ height: "50px", width: "50px" }} />
         <div>Back</div>
       </botton>
 

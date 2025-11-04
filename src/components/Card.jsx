@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { FaHeart } from "react-icons/fa";
 import { CiHeart } from "react-icons/ci";
-import styles from "./CSS/Card.module.css";
+import styles from "../CSS/Card.module.css";
 import { favouriteAction } from "../store/favouriteSlice";
 
 const Card = ({ value }) => {

@@ -1,5 +1,5 @@
 import { useField } from "formik";
-import "./CSS/CustomTextInputs.css";
+import "../CSS/CustomTextInputs.css";
 
 const CustomTextInput = ({ ...props }) => {
   const [field, meta] = useField(props);

@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "./Navbar";
-import "../components/CSS/SignUpUI.module.css";
+import "../CSS/SignUpUI.module.css";
 import SignUpInputs from "./SignUpInputs";
 
 const SignUpUI = () => {
