@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* height: 100%; */
+}
+.error {
+  color: red;
+  font-size: 0.6em;
+  display: flex;
+  float: left;
+  /* margin-left: -350px; */
+}
+.slick-slider button {
+  display: none !important;
+}

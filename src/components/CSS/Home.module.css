@@ -1,0 +1,78 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 1310px;
+  margin: 0px auto;
+  color: white;
+}
+
+.only-text {
+  font-family: "Shrikhand", serif;
+  height: 35px;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.movie-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex-basis: content;
+  /* width: 200px; */
+  /* height: 350px; */
+}
+
+.movie-list {
+  width: 200px;
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.movie-list img {
+  width: 100%;
+  height: 100%;
+}
+
+.movies {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.movie-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.for-img {
+  width: 100%;
+  height: 275px;
+}
+
+.for-text {
+  height: 50px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.heart {
+  width: 20px;
+  height: 20px;
+}
+
+.movie-details {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: end;
+}

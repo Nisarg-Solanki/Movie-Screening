@@ -1,0 +1,57 @@
+.for-img {
+  width: 100%;
+  height: 275px;
+}
+.movie-list {
+  width: 200px;
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.for-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.movies {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.movie-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-name-only {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.for-text {
+  height: 60px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.heart {
+  width: 20px;
+  height: 20px;
+  /* background-color: lightpink; */
+  fill: lightpink;
+}
+
+.movie-details {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: end;
+}

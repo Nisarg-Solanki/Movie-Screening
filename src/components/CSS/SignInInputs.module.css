@@ -1,0 +1,51 @@
+.main-container {
+  background-image: url("/images/bg_img.png");
+  height: 100%;
+  width: 100%;
+  padding: 100px 0px 0px;
+}
+
+.outer-container {
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 540px;
+  width: 487px;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 500px;
+  width: 487px;
+  align-items: center;
+  margin: 0px auto;
+  color: white;
+  gap: 20px;
+  padding: 20px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.buttons {
+  background-color: red;
+  height: 54px;
+  width: 100%;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+}
+
+.SignUpText {
+  color: white;
+  font-size: 26px;
+  font-weight: 700;
+}
