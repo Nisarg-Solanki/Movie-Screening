@@ -30,29 +30,29 @@ Data: Static JSON (data.js)
 src/
 │
 ├── components/
-│   ├── SignUpPopUp.jsx
-│   ├── ValidationSchema.jsx
+│ ├── SignUpPopUp.jsx
+│ ├── ValidationSchema.jsx
 │
 ├── CSS/
-│   ├── Card.module.css
-│   ├── Carousel.css
-│   ├── CustomTextInputs.css
-│   ├── Favourites.module.css
-│   ├── Home.module.css
-│   ├── Navbar.module.css
-│   ├── SignInInputs.module.css
-│   ├── SignUpInputs.module.css
-│   └── SignUpUI.module.css
+│ ├── Card.module.css
+│ ├── Carousel.css
+│ ├── CustomTextInputs.css
+│ ├── Favourites.module.css
+│ ├── Home.module.css
+│ ├── Navbar.module.css
+│ ├── SignInInputs.module.css
+│ ├── SignUpInputs.module.css
+│ └── SignUpUI.module.css
 │
 ├── data/
-│   └── data.js
+│ └── data.js
 │
 ├── store/
-│   ├── favouriteSlice.js
-│   ├── searchFilterSlice.js
-│   ├── signinSlice.js
-│   ├── signupSlice.js
-│   └── index.js
+│ ├── favouriteSlice.js
+│ ├── searchFilterSlice.js
+│ ├── signinSlice.js
+│ ├── signupSlice.js
+│ └── index.js
 │
 ├── App.jsx
 ├── App.css
@@ -71,9 +71,8 @@ npm install
 3️⃣ Start the development server
 npm run dev
 
-
 Then open http://localhost:5173/
- in your browser.
+in your browser.
 
 🧩 How It Works
 
