@@ -1,0 +1,99 @@
+.topbar {
+  background-color: black;
+  height: 84px;
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10%;
+}
+
+.container {
+  display: inline-flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  width: 50%;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.user-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.heart {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+.input-container {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border: 0.5px solid #565555b2;
+  height: 30px;
+  width: 60%;
+  gap: 5%;
+}
+.input-container input {
+  padding: 5px;
+  color: white;
+  background-color: black;
+  border: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.buttons {
+  background-color: red;
+  height: 43px;
+  width: 119px;
+  color: white;
+  border-radius: 15px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.movie {
+  cursor: pointer;
+  font-family: "Shrikhand", serif;
+  background-color: black;
+  border: 0px;
+  align-items: center;
+  height: 52px;
+  width: 116px;
+  font-family: Shrikhand;
+  font-weight: 400;
+  font-style: italic;
+  color: red;
+  font-size: 36px;
+  line-height: 52.5px;
+}
+
+.user-wrapper {
+  position: relative;
+}
+
+.popup {
+  background-color: white;
+  padding: 8px 0px;
+  width: 100%;
+  color: black;
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+  z-index: 1;
+  border: none;
+  cursor: pointer;
+}
