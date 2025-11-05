@@ -27,6 +27,7 @@ Styling: CSS Modules
 Data: Static JSON (data.js)
 
 📁 Folder Structure
+```
 src/
 │
 ├── components/
@@ -59,6 +60,7 @@ src/
 ├── main.jsx
 ├── index.css
 └── index.html
+```
 
 ⚙️ Installation & Setup
 1️⃣ Clone the repository
@@ -88,15 +90,7 @@ View Wishlist – Go to “Favourites” to see liked movies.
 
 Search – Filter movies by title dynamically.
 
-📸 Screenshots (optional)
-
-Add images of the Sign Up, Home, and Wishlist pages here.
-
-🧑‍💻 Author
-
-Your Name
-🔗 GitHub Profile
-
-📝 License
-
-This project is licensed under the MIT License.
+👨‍💻 Author
+Nisarg
+📧 solankinisarg815@gmail.com
+💼 https://www.linkedin.com/in/nisarg-solanki-808113292/
